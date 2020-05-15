@@ -1,0 +1,110 @@
+{
+  "videos": [
+    {
+      "id": "636426b5",
+      "title": "Big Buck Bunny: the Dark Truths of a Video Dev Cartoon(hls)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/dark_truth.png",
+      "drm": {
+        "type": "none",
+        "src:": "https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/hls.m3u8"
+      }
+    },
+    {
+      "id": "0f3a184c",
+      "title": "Art of Motion(hls, ts)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/art_of_motion.png",
+      "drm": {
+        "type": "none",
+        "src:": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+      }
+    },
+    {
+      "id": "3a568056",
+      "title": "Big Buck Bunny(dahs if)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/big_buck_bunny.png",
+      "drm": {
+        "type": "none",
+        "src:": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"
+      }
+    },
+    {
+      "id": "82d8b5f6",
+      "title": "Angel One (multicodec, multilingual, widevine, dash, mp4)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/angel_one.png",
+      "drm": {
+        "type": "widevine",
+        "servers": {
+          "com.widevine.alpha": "https://cwip-shaka-proxy.appspot.com/no_auth"
+        },
+        "src:": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd"
+      }
+    },
+    {
+      "id": "c7bee0ba",
+      "title": "Angel One (multilingual, widevine, hls, mp4)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/angel_one.png",
+      "drm": {
+        "type": "widevine",
+        "servers": {
+          "com.widevine.alpha": "https://cwip-shaka-proxy.appspot.com/no_auth"
+        },
+        "src:": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine-hls/hls.m3u8"
+      }
+    },
+    {
+      "id": "43fe85f6",
+      "title": "Sintel 4k(multicodec, widevine, dash, mp4)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/sintel.png",
+      "drm": {
+        "type": "widevine",
+        "servers": {
+          "com.widevine.alpha": "https://cwip-shaka-proxy.appspot.com/no_auth"
+        },
+        "src:": "https://storage.googleapis.com/shaka-demo-assets/sintel-widevine/dash.mpd"
+      }
+    },
+    {
+      "id": "be273e99",
+      "title": "Tears Of Steel 4k(multi-drm, mpd)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/tears_of_steel.png",
+      "drm": {
+        "type": "multi",
+        "src:": "https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest.mpd",
+        "servers": {
+          "com.widevine.alpha": "https://drm-widevine-licensing.axtest.net/AcquireLicense",
+          "com.microsoft.playready": "https://drm-playready-licensing.axtest.net/AcquireLicense"
+        },
+        "headers": [
+          {
+            "name":  "X-AxDRM-Message",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJjb21fa2V5X2lkIjoiYjMzNjRlYjUtNTFmNi00YWUzLThjOTgtMzNjZWQ1ZTMxYzc4IiwibWVzc2FnZSI6eyJ0eXBlIjoiZW50aXRsZW1lbnRfbWVzc2FnZSIsImtleXMiOlt7ImlkIjoiOWViNDA1MGQtZTQ0Yi00ODAyLTkzMmUtMjdkNzUwODNlMjY2IiwiZW5jcnlwdGVkX2tleSI6ImxLM09qSExZVzI0Y3Iya3RSNzRmbnc9PSJ9XX19.4lWwW46k-oWcah8oN18LPj5OLS5ZU-_AQv7fe0JhNjA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e8990f2a",
+      "title": "Tears Of Steel(widevine, mpd)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/tears_of_steel.png",
+      "drm": {
+        "type": "widevine",
+        "src:": "https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-dash-widevine.ism/.mpd",
+        "servers": {
+          "com.widevine.alpha": "https://license.uat.widevine.com/getlicense/widevine"
+        }
+      }
+    },
+    {
+      "id": "4fc85ecf",
+      "title": "Tears Of Steel(playready, mpd)",
+      "image": "https://storage.googleapis.com/shaka-asset-icons/tears_of_steel.png",
+      "drm": {
+        "type": "playready",
+        "src:": "https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-dash-playready.ism/.mpd",
+        "servers": {
+          "com.microsoft.playready": "https://test.playready.microsoft.com/service/rightsmanager.asmx?PlayRight=1&UseSimpleNonPersistentLicense=1"
+        }
+      }
+    }
+  ]
+}
