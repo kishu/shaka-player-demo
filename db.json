@@ -6,7 +6,7 @@
       "image": "https://storage.googleapis.com/shaka-asset-icons/dark_truth.png",
       "drm": {
         "type": "none",
-        "src:": "https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/hls.m3u8"
+        "src": "https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/hls.m3u8"
       }
     },
     {
@@ -15,7 +15,7 @@
       "image": "https://storage.googleapis.com/shaka-asset-icons/art_of_motion.png",
       "drm": {
         "type": "none",
-        "src:": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+        "src": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
       }
     },
     {
@@ -24,7 +24,7 @@
       "image": "https://storage.googleapis.com/shaka-asset-icons/big_buck_bunny.png",
       "drm": {
         "type": "none",
-        "src:": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"
+        "src": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"
       }
     },
     {
@@ -36,7 +36,7 @@
         "servers": {
           "com.widevine.alpha": "https://cwip-shaka-proxy.appspot.com/no_auth"
         },
-        "src:": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd"
+        "src": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd"
       }
     },
     {
@@ -48,7 +48,7 @@
         "servers": {
           "com.widevine.alpha": "https://cwip-shaka-proxy.appspot.com/no_auth"
         },
-        "src:": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine-hls/hls.m3u8"
+        "src": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine-hls/hls.m3u8"
       }
     },
     {
@@ -60,7 +60,7 @@
         "servers": {
           "com.widevine.alpha": "https://cwip-shaka-proxy.appspot.com/no_auth"
         },
-        "src:": "https://storage.googleapis.com/shaka-demo-assets/sintel-widevine/dash.mpd"
+        "src": "https://storage.googleapis.com/shaka-demo-assets/sintel-widevine/dash.mpd"
       }
     },
     {
@@ -69,7 +69,7 @@
       "image": "https://storage.googleapis.com/shaka-asset-icons/tears_of_steel.png",
       "drm": {
         "type": "multi",
-        "src:": "https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest.mpd",
+        "src": "https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest.mpd",
         "servers": {
           "com.widevine.alpha": "https://drm-widevine-licensing.axtest.net/AcquireLicense",
           "com.microsoft.playready": "https://drm-playready-licensing.axtest.net/AcquireLicense"
@@ -88,7 +88,7 @@
       "image": "https://storage.googleapis.com/shaka-asset-icons/tears_of_steel.png",
       "drm": {
         "type": "widevine",
-        "src:": "https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-dash-widevine.ism/.mpd",
+        "src": "https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-dash-widevine.ism/.mpd",
         "servers": {
           "com.widevine.alpha": "https://license.uat.widevine.com/getlicense/widevine"
         }
@@ -100,7 +100,7 @@
       "image": "https://storage.googleapis.com/shaka-asset-icons/tears_of_steel.png",
       "drm": {
         "type": "playready",
-        "src:": "https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-dash-playready.ism/.mpd",
+        "src": "https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-dash-playready.ism/.mpd",
         "servers": {
           "com.microsoft.playready": "https://test.playready.microsoft.com/service/rightsmanager.asmx?PlayRight=1&UseSimpleNonPersistentLicense=1"
         }
